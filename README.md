@@ -864,7 +864,7 @@ but since that's all encapsulated in one place, the task is much more manageable
           this.saveButton = element(by.id('save-button'));
 
           this.enterName = function(name) {
-            this.name.sendKeys(name);
+            return this.name.sendKeys(name);
           };
         };
 
